@@ -23,3 +23,5 @@ it('matches snapshot', () => {
     const { getByTestId } = render(<Gallery currentCategory={portrait} />)
     expect(getByTestId('h1tag')).toHaveTextContent('Portraits')
   })
+
+  
